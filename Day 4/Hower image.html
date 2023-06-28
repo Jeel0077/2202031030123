@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<video autoplay muted loop id="bg-video">
+    <source src="video1.mp4.mp4" type="video/mp4">
+  </video>
+ <body>
+    <head><h1>CSS Hover Element - Selector OR Child Combinator</h1>
+		<title>CSS Hover Element - Selector OR Child Combinator</title>
+		<style type="text/css">
+			#MainUL li ul li{display:none;}
+			#MainUL li:hover ul li{display:block;}
+			#MainUL li:hover ul li ul li{display:none;}
+			#MainUL li ul li:hover ul li{display:block;}
+			#MainUL li ul li:hover ul li ul li{display:none;}
+			#MainUL li ul li ul li:hover ul li{display:block;}
+		</style>
+		
+	</head>
+
+		<ul id="MainUL">
+			<li><img src="C:\Users\student\Downloads\download (1).jpg" width="50xp" height="50xp" class="image" alt="my image">
+			    <ul>
+					<li><img src="c:\Users\student\Downloads\photo2.jpg"width="50xp" height="50xp" class="image" alt="my image"></li>
+				</ul>
+ </body> 
+  <style>
+    #bg-video {
+      position: top;
+      right: 0;
+      bottom: 0;
+      min-width: 50%;
+      min-height: 50%;
+    }
+
+  </style>
+ </html> 

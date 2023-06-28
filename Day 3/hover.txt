@@ -1,0 +1,22 @@
+html
+Copy code
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hover Effect Example</title>
+  <style>
+    .hover-element {
+      width: 200px;
+      height: 200px;
+      background-color: blue;
+      transition: background-color 0.3s ease;
+    }
+    .hover-element:hover {
+      background-color: red;
+    }
+  </style>
+</head>
+<body>
+  <div class="hover-element"></div>
+</body>
+</html>
